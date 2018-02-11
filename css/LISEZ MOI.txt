@@ -1,0 +1,7 @@
+Ce site internet est réalisé dans le cadre du projet tutoré de première 
+année du DUT informatique de Vélizy par Vimont Adrien et Marais Bastien.
+
+Ce site a pour thème les Mathématiques et plus précisément les matrices.
+
+Pour afficher la première page veuillez lancer "accueil.html"
+ou directement : http://matricio.esy.es/accueil.html

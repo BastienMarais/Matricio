@@ -1,0 +1,8 @@
+#index {
+	background-image:url(../image/fond.png);
+	top : 30% ;
+	position: fixed;
+	left: 0px;
+	color: black;
+	padding-right : 20px;
+}

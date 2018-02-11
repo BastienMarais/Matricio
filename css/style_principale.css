@@ -1,0 +1,57 @@
+#en_tête {
+	background-image:url(../image/fond.png);
+	position: fixed;
+	top: 0px;
+	left : 0px;
+	width: 100%;
+	color: black;
+	
+}
+
+
+#footer {
+	padding: 20px 0px;
+	font-size: 12px;
+	background-image:url(../image/fond.png);
+	color: black;
+	position: fixed;
+	bottom: 0px;
+	left : 0px;
+	width: 100%;
+	text-align : center;
+}
+
+.titre_actif {
+	text-align : center;
+	text-decoration : underline;
+}
+
+.titre_menu {
+	text-align : center;
+	word-spacing: 20px;
+}
+
+a:link { 
+	color: black;
+	text-decoration : none;
+}  
+a:hover { 
+	color: black;
+	text-decoration : none;
+}  
+a:visited { 
+	color: black;
+	text-decoration : none;
+}  
+
+.logo {
+	float : left;
+}
+
+li{
+	text-decoration : underline;
+}
+
+h2,h3,h4{
+	text-decoration : underline;
+}

@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="fr">
+	<head> 
+		<meta charset="utf-8">
+		<title>Cours</title>
+		<link rel="stylesheet" type="text/css" href="../css/style_principale.css">
+		<link rel="stylesheet" type="text/css" href="../css/index.css">
+		<link rel="stylesheet" type="text/css" href="../css/cours.css">
+	</head>
+	<body>
+	
+		<div id="en_tête">
+			<a href=accueil.html><img class="logo" src="../image/logo.png" alt="Logo du site matricio." title="Le logo du site"/></a>
+			<h1 class="titre_actif"> Cours </h1> 
+			<h3 class="titre_menu" > 
+				<a href=accueil.html >Accueil</a>
+				<a href=cours.html > Cours</a>
+				<a href=exercices.html >Exercices</a> 
+				<a href=correction.html >Correction</a> 
+				<a href=telechargement.html >Téléchargement</a>
+			</h3>
+		</div>
+		
+		<br><br><br><br><br>
+		
+		<div id="index">
+			<ul>
+				<li><a href="#I"> I Définition et notation </a></li>
+				<li><a href="#IA"> A Matrices n*p </a></li>
+				<li><a href="#IB"> B Opérations sur les matrices </a></li>
+				<li><a href="#II"> II Matrices carrées </a></li>
+				<li><a href="#IIA"> A Définition,notation </a></li>
+				<li><a href="#IIB"> B Matrices carrées particulières </a></li>
+				<li><a href="#III"> III Inversion d'une matrice: déterminant et comatrice </a></li>
+				<li><a href="#IIIA"> A Définitions et notation </a></li>
+				<li><a href="#IIIB"> B Propriété fondamentale </a></li>
+				<li><a href="#IV"> IV Inversion d'une matrice carrée: méthode Gauss </a></li>
+				<li><a href="#IVA"> A Opérations élémentaires </a></li>
+				<li><a href="#IVB"> B Principes de la méthode de Gauss </a></li>
+				<li><a href="#V"> V Application à la résolution de système linéaire</a></li>
+			</ul>
+		</div>
+		<a id="I"></a>
+		
+		<a id="IA"></a>
+		<div id="corps">
+			
+			<h2> I Définition et notation </h2>
+			<h3> A Matrices n*p </h3>
+			<p> On note M<sub>n,p</sub> l'ensembles des matrices n lignes et p colonnes.</p>
+			<a id="IB"></a>
+			<img class="matrice" src="../image/ex_matrice1.png" alt="exemple de matrice" title="ex_matrice1"/>
+			<h3> B Opérations sur les matrices </h3>
+			<h4>1.Transpositions</h4>
+			<p>Soit une matrice A &isin; M<sub>n,p</sub> , on appelle transposée de A et on note <sup>t</sup>A.</p>
+			<img class="matrice" src="../image/ex_matrice2.png" alt="exemple de transposée" title="ex_matrice2"/>
+			<p>Remarque: Transposer une matrice revient à échanger lignes et colonnes</p>
+			<h4>2.Addition</h4>
+			<p>Soit A et B &isin; M<sub>n,p</sub> , on appelle somme des matrices A et B et on note A+B la matrice S &isin; M<sub>n,p</sub> telle que Sij=Aij+Bij.</p>
+			<img class="matrice" src="../image/ex_matrice3.png" alt="exemple d'addition" title="ex_matrice3"/>
+			<p>Remarque: On ne peut additionner que des matrices de même dimension.</p>
+			<h4>3.Produit par un scalaire</h4>
+			<p>Soit A &isin; M<sub>n,p</sub> et k &isin; R, on note k.A.</p>
+			<img class="matrice" src="../image/ex_matrice4.png" alt="exemple de multiplication" title="ex_matrice4"/>
+			<h4>4.Produit matriciel</h4>
+			<p>Soit A &isin; M<sub>n,p</sub> et B &isin; M<sub>n,p</sub> , on appelle produit matriciel de A par B et note A*B.</p>
+			<a id="II"></a>
+			<img class="matrice" src="../image/ex_matrice5.png" alt="exemple de multiplication" title="ex_matrice5"/>
+			<a id="IIA"></a>
+			<p>Remarque: <br> i) Pour multiplier 2 matrice, le nombre de colonne de celle de gauche est égal nombre de ligne de celle de droite.<br>
+					  ii) Le produit possède alors le même nombre de ligne de celle de gauche et le même nombre de colonne de celle de droite.</p>
+			<a id="IIB"></a>
+			
+			
+			<br>
+			<br>
+			<br>
+			
+			<h2> II Matrices carrées </h2>
+			<h3> A Définition,notation </h3>
+			<p> L'ensemble Mn,p est noté par la suite Mn;ses éléments sont appelés matrices carrées car ayant le même nombre de lignes que de colonnes.</p>
+			<h3> B Matrices carrées particulières </h3>
+			<p>Soit A &isin; Mn </p>
+			<h4>1.Matrices triangulaires</h4>
+			<p>A est une matrice triangulaire inférieure &hArr; &forall; i;j &isin; 1,n, i &lt; j &rArr; Aij=0;<br>
+			A est une matrice triangulaire supérieure &hArr; &forall; i;j &isin; 1,n, i &gt; j &rArr; Aij=0;<br>
+			A est une matrice diagonale &hArr; &forall; i;j &isin; 1;n , i &ne; j &rArr; Aij=0;<br>
+			<img class="matrice" src="../image/ex_matrice6.png" alt="exemple de triangulaire" title="ex_matrice6"/></p>
+			<h4>2.Matrices symétrique</h4>
+			<p> A est une matrice symétrique &hArr; A = <sup>t</sup>A.</p>
+			<h4>3.Matrice identité</h4><a id="III"></a>
+			<p> On note In et on appelle matrice identité la matrice Mn.<br><a id="IIIA"></a>
+			<img class="matrice" src="../image/cour2.png" alt="matrice identité" title="cour2"/></p>
+			
+			<br>
+			<br>
+			<br>
+			
+			<h2> III Inversion d'une matrice carrée: déterminant et comatrice </h2>
+			<h3> A Définitions et notation</h3>
+			<p> Le déterminant de la matrice A, noté det(A) ou encore |Aij| et le cofacteur de Akl, noté ici Ckl sont deux nombres réels définis par:<br><a id="IIIB"></a>
+			<img class="matrice" src="../image/cour1.png" alt="formule" title="cour1"/><br>
+			La matrice des cofacteurs est appelée comatrice de A.<br>
+			On dit que la matrice A est inversible si et seulement si il existe B &isin Mn , A*B=B*A=In.<br>
+			B est alors appelée matrice inverse de A et notée A<sup>-1</sup>.<br>
+			Remarque: On peut calculer le déterminant selon n'importe quelle ligne ou colonne.</p><a id="IV"></a>
+			<h3> B Propriété fondamentale</h3>
+			<a id="IVA"></a>
+			<p>A est inversible &hArr; det(A) &ne; 0
+			Si A est inversible alors A<sup>-1</sup>=(1/det(A))*<sup>t</sup>com(A)</p>
+			
+			<br>
+			<br>
+			<br>
+			
+			<h2> IV Inversion d'une matrice carrée: méthode de Gauss</h2>
+			<a id="IVB"></a>
+			<h3> A Opérations élémentaires</h3>
+			<p> On note Lk &harr; Ll l'opération qui consiste à échanger la k ligne avec la l ligne.<br>
+			On note Lk &larr; &lambda;Lk avec &lambda; &ne; 0 l'opération consistant à multiplier la k ligne par lambda.<br>
+			On note Lk &larr; Lk+&lambda;Ll avec &lambda; &ne; 0 l'opération qui consiste à ajouter lambda fois la l ligne à k.<br>
+			Quand on effectue une opération sur la matrice A, on doit l'effectuer aussi transformer la matrice inverse.<br>
+			Ces opérations ne changent pas la nature d'une matrice.<br>
+			Remarque: On peut évidemmen définir les mêmes opérations sur les colonnes.</p>
+			<h3> B Principes de la méthode de Gauss</h3>
+			<p>Si A est inversible, on lui applique des opérations élémentaires jusqu'à obtenir la matrice In et on applique
+			simultanément les mêmes opérations à la matrice In.<br>
+			La transformée de In est alors la matrice inverse de A.
+			<table>
+				<tr>
+					<td>1 0 0<br>2 1 0<br>0 2 1</td>
+					<td>1 0 0<br>0 1 0<br>0 0 1</td>
+				</tr>
+				<tr>
+					<td>1 0 0<br>0 1 0<br>0 2 1</td>
+					<td>1 0 0<br>-2 1 0<br>0 0 1</td>
+				</tr>
+				<tr>
+					<td>1 0 0<br>0 1 0<br>0 0 -1<a id="V"></a></td>
+					<td>1 0 0<br>-2 1 0<br>4 -2 1</td>
+				</tr>
+				<tr>
+					<td>1 0 0<br>0 1 0<br>0 0 1</td>
+					<td>1 0 0<br>-2 1 0<br>-4 2 -1</td>
+				</tr>
+			</table>
+			<p>Si A n'est pas inversible, une transformée de A par ces opérations sera triangulaire avec un éléments diagonal nul,donc de déterminant nul.<br>
+			Pivot: on peut par exemple transformer A en une matrice triangulaire supérieure,  condition que toute colonne possède un élément non nul pendant cette transformation: on normalise le pivot puis on créer des 0.
+			</p>
+			
+			<br>
+			<br>
+			
+			<h2> V Application à la résolution de système linéaire </h2>
+			<img class="matrice" src="../image/cour3.png" alt="formule" title="cour3"/>
+			
+		</div>
+		
+		<br><br><br>
+		
+		<div id="footer">
+			<p>Ce site est réalisé dans le cadre d'un projet tutoré par Vimont Adrien et Marais Bastien.</p>
+			<p> Pour nous contacter : vimontadrien@gmail.com ou marais.bas@gmail.com </p>
+		</div>
+		
+	</body>
+</html>
